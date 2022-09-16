@@ -1,0 +1,17 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+body {
+  @apply h-screen flex bg-white;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+body.dark {
+  @apply bg-gray-800 text-white;
+}
+
+.box {
+  @apply rounded-xl shadow-md bg-white dark:bg-gray-600 w-full;
+}

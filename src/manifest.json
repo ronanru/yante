@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "NewTab",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "popup/index.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab/index.html"
+  },
+  "host_permissions": ["https://duckduckgo.com/ac/"],
+  "permissions": ["topSites", "storage"]
+}
